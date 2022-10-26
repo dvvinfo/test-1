@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body class="home_overflow">
+    <main id="app">
+      <div id="modal" class="modal _esp">
+        <div class="modal__container">
+          <div class="modal__close"></div>
+
+          <div class="modal__content">
+            <div class="modal__title">Форма обратной связи</div>
+
+            <div class="feedback_wrapper">
+              <div class="feedback_form_wrap">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="input feedback_name"
+                    name="name"
+                    placeholder="Имя"
+                  />
+                  <div class="input_err _error_name"></div>
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="tel"
+                    class="input feedback_phone"
+                    name="phone"
+                    placeholder="Телефон"
+                  />
+                  <div class="input_err _error_phone"></div>
+                </div>
+
+                <div class="form-group">
+                  <label class="checkbox-item create-survey__radio checkbox">
+                    <span>
+                      <input
+                        type="checkbox"
+                        class="checkbox-input feedback_policy"
+                      />
+                      <span class="checkbox-item__checkmark"></span>
+                    </span>
+                    <span>
+                      Согласен(а) с обработкой
+                      <a href="#" target="_blank" class="feedback__link"
+                        >персональных данных</a
+                      >
+                    </span>
+                  </label>
+                </div>
+
+                <div class="form-group">
+                  <button class="btn feedback__btn">Обратиться к нам</button>
+                </div>
+              </div>
+
+              <div class="form_success hide">
+                Сообщение успешно отправлено. В ближайшее время с Вами свяжутся.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-wrapper">
+        <div class="header">
+          <div class="header__wrapper">
+            <div class="row header_row">
+              <a href="/" class="link header__logo">
+                <img
+                  src="img/logo/logo-svg.svg"
+                  class="header__logo-img"
+                  alt=""
+                />
+                <span>Объединенная металлоломная компания</span>
+              </a>
+              <div class="header-content">
+                <div class="phone">
+                  <a href="tel:89051717782" class="link phone__link">
+                    8 905 171-77-82
+                  </a>
+                  <div class="phone__text">
+                    Отдел заготовки лома цветных металлов
+                  </div>
+                </div>
+
+                <div class="phone">
+                  <a href="tel:89051713244" class="link phone__link">
+                    8 905 171-32-44
+                  </a>
+                  <div class="phone__text">
+                    Отдел заготовки лома черных металлов
+                  </div>
+                </div>
+
+                <div class="header__address">
+                  <p class="address">
+                    308012 г. Белгород, ул. Костюкова 46 "Б" офис 313
+                  </p>
+                </div>
+
+                <div class="header__burger">
+                  <div class="burger">
+                    <span class="burger__line1"></span>
+                    <span class="burger__line2"></span>
+                    <span class="burger__line3"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="header__nav">
+                <ul class="nav list-style">
+                  <li class="nav__item">
+                    <a href="#" class="nav__link"> О компании </a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#" class="nav__link"> Контакты </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="menu">
+                <div class="close-menu"></div>
+
+                <ul class="nav list-style">
+                  <li class="nav__item">
+                    <a href="№" class="nav__link"> О компании </a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="№" class="nav__link"> Контакты </a>
+                  </li>
+                </ul>
+
+                <div class="menu__contacts">
+                  <div class="phone">
+                    <a href="tel:89051717782" class="link phone__link">
+                      8 905 171-77-82
+                    </a>
+                    <div class="phone__text">
+                      Отдел заготовки лома цветных металлов
+                    </div>
+                  </div>
+
+                  <div class="phone">
+                    <a href="tel:89051713244" class="link phone__link">
+                      8 905 171-32-44
+                    </a>
+                    <div class="phone__text">
+                      Отдел заготовки лома черных металлов
+                    </div>
+                  </div>
+
+                  <a
+                    href="https://yandex.ru/maps/-/CCUJYFFaKD"
+                    target="_blank"
+                    class="link address"
+                  >
+                    308012 г. Белгород, ул. Костюкова 46 "Б" офис 313
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="page-content">
+            <div class="home">
+              <div class="slider-wrap">
+                <div class="splide _slider">
+                  <div class="slider splide__track">
+                    <ul class="splide__list">
+                      <li class="splide__slide">
+                        <div class="slider__item">
+                          <img
+                            src="img/slider/slide-1.webp"
+                            class="slider__img"
+                            alt=""
+                          />
+
+                          <div class="slider__info">
+                            <div class="slider__skew">
+                              <div class="slider__info-content">
+                                <div class="title">
+                                  Заготовка лома <br />
+                                  черных металлов
+                                </div>
+                                <p class="text-style slider__info-text">
+                                  Специализация заготовка переработка реализация
+                                  лома и отходов черных металлов
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="slider__item">
+                          <img
+                            src="img/slider/slide-2.webp"
+                            class="slider__img"
+                            alt=""
+                          />
+
+                          <div class="slider__info">
+                            <div class="slider__skew">
+                              <div class="slider__info-content">
+                                <div class="title">
+                                  Заготовка лома <br />
+                                  цветных металлов
+                                </div>
+                                <p class="text-style slider__info-text">
+                                  Специализация заготовка переработка реализация
+                                  лома и отходов цветных металлов
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="slider__item">
+                          <img
+                            src="img/slider/slide-3.webp"
+                            class="slider__img"
+                            alt=""
+                          />
+
+                          <div class="slider__info">
+                            <div class="slider__skew">
+                              <div class="slider__info-content">
+                                <div class="title title-big">
+                                  Заготовка отработанных <br />
+                                  аккумуляторных <br />
+                                  батарей
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="splide__arrows arrow_wrap">
+                    <button
+                      class="arrow arrow_prev feedback__back-btn splide__arrow splide__arrow--prev"
+                    ></button>
+                    <button
+                      class="arrow arrow_next feedback__back-btn splide__arrow splide__arrow--next"
+                    ></button>
+                  </div>
+
+                  <button class="feedback_btn btn_inline _open_feedback">
+                    <span class="feedback_icon"></span>
+                    Связаться с нами
+                  </button>
+                </div>
+              </div>
+
+              <div class="feedback_wrap">
+                <div class="row feedback">
+                  <div class="feedback__img-wrap"></div>
+
+                  <div class="feedback__content">
+                    <div class="bg_black">
+                      <div class="feedback__form-wrap">
+                        <div class="feedback__form p_rel">
+                          <button
+                            class="arrow arrow_prev feedback__back-btn _close_feedback"
+                          ></button>
+
+                          <div class="feedback__title">
+                            Форма обратной связи
+                          </div>
+
+                          <div class="feedback_wrapper">
+                            <div class="feedback_form_wrap">
+                              <div class="form-group">
+                                <input
+                                  type="text"
+                                  class="input feedback_name"
+                                  name="name"
+                                  placeholder="Имя"
+                                />
+                                <div class="input_err _error_name"></div>
+                              </div>
+
+                              <div class="form-group">
+                                <input
+                                  type="tel"
+                                  class="input feedback_phone"
+                                  name="phone"
+                                  placeholder="Телефон"
+                                />
+                                <div class="input_err _error_phone"></div>
+                              </div>
+
+                              <div class="form-group">
+                                <label
+                                  class="checkbox-item create-survey__radio checkbox"
+                                >
+                                  <span>
+                                    <input
+                                      type="checkbox"
+                                      class="checkbox-input feedback_policy"
+                                    />
+                                    <span
+                                      class="checkbox-item__checkmark"
+                                    ></span>
+                                  </span>
+                                  <span>
+                                    Согласен(а) с обработкой
+                                    <a
+                                      href="policy.html"
+                                      target="_blank"
+                                      class="link_underline"
+                                      >персональных данных</a
+                                    >
+                                  </span>
+                                </label>
+                              </div>
+
+                              <div class="form-group">
+                                <button class="btn feedback__btn">
+                                  Обратиться к нам
+                                </button>
+                              </div>
+                            </div>
+
+                            <div class="form_success hide">
+                              Сообщение успешно отправлено. В ближайшее время с
+                              Вами свяжутся.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="container">
+          <div class="row footer_row">
+            <div class="footer__copyright">
+              Copyright © 2022 Объединенная <br />
+              металлоломная компания
+            </div>
+
+            <a href="#" target="_blank" class="link footer__policy-link">
+              Политика конфиденциальности
+            </a>
+
+            <div class="webstyle">
+              <a
+                href="#"
+                class="link webstyle__link"
+                target="_blank"
+                title="Продвижение сайтов Белгород"
+              >
+                Продвижение сайтов
+              </a>
+              <a
+                href="@"
+                target="_blank"
+                class="webstyle__link"
+                title="Создание сайтов Белгород"
+              >
+                <img src="img/logo/webstyle.png" alt="" class="webstyle__img" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/libs.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <script>
+      //    var mySwiper = new Swiper('.splide__list', {
+      //         loop: true,
+      //         spaceBetween: 50,
+      //         speed: 1000,
+      //         effect: 'fade',
+      //         navigation: {
+      //             nextEl: '.arrow .arrow_prev ',
+      //             prevEl: '.arrow .arrow_prev ',
+      //         },
+      //         autoplay: {
+      //             delay: 5000,
+      //             disableOnInteraction: false,
+      //         }
+      //     });
+    </script>
+  </body>
+</html>
